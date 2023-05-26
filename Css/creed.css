@@ -1,0 +1,25 @@
+.imagen-destacada {
+    border-radius:5%;
+    float: right;
+    width: 300px;
+    height: 500px;
+  }
+  
+.pelicula{
+    padding-top: 120px;
+    padding-left: 40px;
+    padding-right: 30px;
+    background-color: rgba(240, 240, 240, 0.062);
+}
+
+.bandera {
+    height: 14px;}
+
+#p{
+  font-size: 14px;
+  line-height: 18px;
+}
+
+p{
+  font-family: Arial;
+}

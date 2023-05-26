@@ -1,0 +1,1121 @@
+var peliculas = [
+  // Destacados
+    {
+        titulo: '<h2>GoodFellas</h2>',
+        imagenURL: 'Inicio/17.jpg',
+        año: 1990,
+        Director:'Martin Scorsese',
+        actores: ["Ray Liotta", "Robert de Niro", "Joe Pesi","Lorraine Bracco","Paul Sorvino","Chuck Low",],
+        sinopsis: "Henry Hill, hijo de padre irlandés y madre siciliana, vive en Brooklyn y se siente fascinado por la vida que llevan los gángsters de su barrio, donde la mayoría de los vecinos son inmigrantes. Paul Cicero, el patriarca de la familia Pauline, es el protector del barrio. A los trece años, Henry decide abandonar la escuela y entrar a formar parte de la organización mafiosa como chico de los recados; muy pronto se gana la confianza de sus jefes, gracias a lo cual irá subiendo de categoría. (FILMAFFINITY)",
+        resena: "Típica película de Scorsese: larga, densa, de esmero plástico y, narrativamente, dura y profunda. Los personajes están soberbiamente interpretados por Liotta, De Niro y Pesci. Muy buena",
+        genero:"Thriller. Drama | Mafia. Crimen. Años 70 Años 80 Película de culto. Basado en hechos reales",
+        videoURL:'../video/x2mate.com-Goodfellas (1990) Official Trailer #1 - Martin Scorsese Movie(720p).mp4',
+      },
+      
+    {
+      titulo: "Joker",
+      imagenURL: "Inicio/18.jpg",
+      año: 2019,
+      Director:'Todd Phillips',
+      actores: ["Joaquin Phoenix", " Robert De Niro", "Zazie Beetz","Frances Conroy"],
+      sinopsis: "Arthur Fleck (Phoenix) vive en Gotham con su madre, y su única motivación en la vida es hacer reír a la gente. Actúa haciendo de payaso en pequeños trabajos, pero tiene problemas mentales que hacen que la gente le vea como un bicho raro. Su gran sueño es actuar como cómico delante del público, pero una serie de trágicos acontecimientos le hará ir incrementando su ira contra una sociedad que le ignora.",
+      resena: "Phoenix está extraordinario en el papel de enfermo mental. Una pesadilla urbana hipnóticamente perversa; una fantasía de cómic morbosamente cautivadora",
+      genero:"Thriller. Drama | Crimen. DC Comics. Cómic. Payasos. Drama psicológico. Años 80",
+      videoURL:'../video/x2mate.com-Goodfellas (1990) Official Trailer #1 - Martin Scorsese Movie(720p).mp4',
+    },
+
+    {
+      titulo: "Pulp Fiction",
+      imagenURL: "Inicio/19.jpg",
+      año: 1994,
+      Director:'Quentin Tarantino',
+      actores: ["Actor 7", "Actor 8", "Actor 9"],
+      sinopsis: "Jules y Vincent, dos asesinos a sueldo con no demasiadas luces, trabajan para el gángster Marsellus Wallace. Vincent le confiesa a Jules que Marsellus le ha pedido que cuide de Mia, su atractiva mujer. Jules le recomienda prudencia porque es muy peligroso sobrepasarse con la novia del jefe. Cuando llega la hora de trabajar, ambos deben ponerse manos a la obra  Su misión: recuperar un misterioso maletín.",
+      resena: "Radical amalgama de comedia sofisticada de diálogos mordaces, drama social de barrio bajo, música pop y violencia explícita macabra.  Guión ágil y ocurrente",
+      genero:"Thriller | Crimen. Historias cruzadas. Película de culto. Comedia negra",
+      videoURL:'../video/x2mate.com-Goodfellas (1990) Official Trailer #1 - Martin Scorsese Movie(720p).mp4',
+    },
+    
+    {
+        titulo: "Top Gun:Maverick",
+        imagenURL: "Inicio/20.jpg",
+        año: 2023,
+        Director:'Joseph Kosinski',
+        actores: ["Tom Cruise", "Milles Tiller", "Jennifer Connell","Jon Hamn","Glen Powell","Ed Harris"],
+        sinopsis: "Después de más de treinta años de servicio como uno de los mejores aviadores de la Armada, Pete Mavericks Mitchel (Tom Cruise) se encuentra donde siempre quiso estar: superando los límites como un valiente piloto de pruebas y esquivando el ascenso de rango, que no le dejaría volar emplazándolo en tierra. Cuando es destinado a la academia de Top Gun con el objetivo de entrenar a los pilotos de élite para realizar una peligrosa misión en territorio enemigo, Maverick se encuentra allí con el joven teniente Bradley Bradshaw (Miles Teller), el hijo de su difunto amigo Goose.",
+        resena: "Cruise pasa de la arrogancia a la épica  la secuela introduce con inteligencia un bonito homenaje a Val Kilmer digno cine popular un producto de molde que, sin embargo, no es fácil de pulir hoy en día.",
+        genero:"Acción. Drama | Ejército. Aviones. Secuela",
+        videoURL:'../video/x2mate.com-Goodfellas (1990) Official Trailer #1 - Martin Scorsese Movie(720p).mp4',
+      },
+      // Peliculas Recientes 
+      {
+        titulo: "Creed III",
+        imagenURL: "Inicio/13.jpg",
+        año: 2023,
+        Director:'Michael B Jordan',
+        actores: ["Actor 7", "Actor 8", "Actor 9"],
+        sinopsis: "Después de dominar el mundo del boxeo, Adonis Creed ha progresado tanto en su carrera como en su vida familiar. Cuando Damian (Jonathan Majors), un amigo de la infancia y antiguo prodigio del boxeo, reaparece después de cumplir una larga condena en prisión, Adonis Creed quiere demostrar que merece una oportunidad en el ring. El enfrentamiento entre estos antiguos amigos es algo más que una simple pelea. Para ajustar cuentas, Adonis debe arriesgar su futuro para enfrentarse a Damian, un boxeador que no tiene nada que perder. Tercera entrega de la revitalizada franquicia 'Rocky' para MGM, en la que Jordan retoma su papel de Adonis Creed",
+        resena: "Magnífica nueva entrega  no deja para nada ese regusto amargo que podemos denominar fatiga de franquicia  Puntuación: ★★★ ",
+        genero:"Drama | Boxeo. Secuela",
+        videoURL:'video/x2mate.com-CREED III _ Tráiler oficial(720p).mp4',
+      },
+
+      {
+        titulo: "Jonh Wick 'Chapter 4'",
+        imagenURL: "Inicio/10.jpg",
+        año: 2023,
+        Director:'Chad Stahelski',
+        actores: ["Jeanu Reeves", "Donnie Yan", "Bill Skarsgard","Ian McShane","Shamier Anderson"],
+        sinopsis: "John Wick, legendario asesino retirado, vuelve de nuevo a la acción impulsado por una incontrolable búsqueda de venganza. Al tener que luchar contra asesinos sedientos de sangre que le persiguen, John tendrá que llevar sus habilidades al límite si quiere salir esta vez con vida.",
+        resena: "Cine de acción en su máxima expresión, la saga alcanza una nueva cima. Eleva el listón tanto para el universo Wick como para el género. Es oro puro",
+        genero:"Acción. Thriller | Crimen. Secuela. Artes marciales",
+        videoURL:'../video/x2mate.com-Goodfellas (1990) Official Trailer #1 - Martin Scorsese Movie(720p).mp4',
+      },
+
+      {
+        titulo: "As Bestas",
+        imagenURL: "Inicio/7.jpg",
+        año: 2022,
+        Director:'Rodrigo Sorogoyen',
+        actores: ["Marina Fois", "Denis Ménochet", "Luis Zahera", "Diego Anido", "Marie Colomb"],
+        sinopsis: "Antoine y Olga son una pareja francesa que se instaló hace tiempo en una aldea del interior de Galicia. Allí llevan una vida tranquila, aunque su convivencia con los lugareños no es tan idílica como desearían. Un conflicto con sus vecinos, los hermanos Anta, hará que la tensión crezca en la aldea hasta alcanzar un punto de no retorno",
+        resena: "Una película que es muy buena pero no redonda es un filme brillante sobre la España negra en tiempos de las renovables. Con momentos portentosos, interpretada de maravilla",
+        genero:"Thriller. Drama | Vida rural",
+        videoURL:'../video/x2mate.com-Goodfellas (1990) Official Trailer #1 - Martin Scorsese Movie(720p).mp4',
+      },
+
+      {
+        titulo: "Avatar 'The Way of water'",
+        imagenURL: "Inicio/8.jpg",
+        año: 2022,
+        Director:'James Cameron',
+        actores: ["Sam Worthington", "Zoe Saldana", "Sigourney Weaver", "Kate Winslet,"],
+        sinopsis: "Más de una década después de los acontecimientos de 'Avatar', los Na'vi Jake Sully, Neytiri y sus hijos viven en paz en los bosques de Pandora hasta que regresan los hombres del cielo. Entonces comienzan los problemas que persiguen sin descanso a la familia Sully, que decide hacer un gran sacrificio para mantener a su pueblo a salvo y seguir ellos con vida. ",
+        resena: "Un alucinante espectáculo visual sin nada que contar  un escaparate del 3D más inmersivo y realista que uno puede imaginar, pero sus 192 minutos , ofrecen escasa sustancia temática o narrativa  Puntuación: ★★★",
+        genero:"Ciencia ficción. Aventuras. Fantástico. Acción | Familia. Extraterrestres. Secuela. 3-D",
+        videoURL:'../video/x2mate.com-Goodfellas (1990) Official Trailer #1 - Martin Scorsese Movie(720p).mp4',
+      },
+
+      {
+        titulo: "The wale",
+        imagenURL: "Inicio/9.jpg",
+        año: 2022,
+        Director:'Darren Aronofsky',
+        actores: ["Brendan Fraser", "Sadie Sink", "Honk Chau","Ty Simpkins","Samantha Morton"],
+        sinopsis: "Un solitario profesor de inglés con obesidad severa (Brendan Fraser) intenta reconectar con su hija adolescente en una última oportunidad de redención",
+        resena: "Un filme conmovedor, áspero, a veces incómodo y finalmente humanista  Aronofsky ha logrado una de sus mejores películas, y lo hace comandado por la interpretación colosal de Brendan Fraser",
+        genero:"Drama | Familia. Enfermedad. Homosexualidad",
+        videoURL:'../video/x2mate.com-Goodfellas (1990) Official Trailer #1 - Martin Scorsese Movie(720p).mp4',
+      },
+
+      {
+        titulo: "Operation Fortune",
+        imagenURL: "Inicio/5.jpg",
+        año: 2023,
+        Director:'Guy Ritchie',
+        actores: ["Jason Statham", "Aubrey Plaza", "Josh Hartnett","Cary Elwes","Hugh Grant"],
+        sinopsis: "El agente del MI6 Orson Fortune (Jason Statham) y su equipo reclutan a una de las estrellas de cine más importantes de Hollywood (Josh Harnett), para que los ayude en una misión encubierta para rastrear y detener la venta de nuevas tecnologías de armas mortales, a manos del multimillonario Greg Simmonds (Hugh Grant).",
+        resena: "Una película eficaz y rutinaria que deviene en un vacuo relato de espías matizado por la habitual sorna del director británico",
+        genero:"Thriller. Acción | Crimen",
+        videoURL:'../video/x2mate.com-Goodfellas (1990) Official Trailer #1 - Martin Scorsese Movie(720p).mp4',
+      },
+
+
+      {
+        titulo: "65",
+        imagenURL: "Inicio/11.jpg",
+        año: 2023,
+        Director:'Scott Beck, Bryan Woods',
+        actores: ["Dave Bautista", "Jonathan Groff", "Ben Aldridge", "Kristen Cui", "Nikki Amuka-Bird"],
+        sinopsis: "Después de un catastrófico accidente en un planeta desconocido, el piloto Mills (Adam Driver) descubre rápidamente que realmente está varado en la Tierra… hace 65 millones de años. Ahora, con solo una oportunidad de rescate, Mills y la otra única superviviente, Koa (Ariana Greenblatt), deberán abrirse camino a través del desconocido territorio plagado con peligrosas criaturas prehistóricas en una épica lucha por sobrevivir.",
+        resena: "Reducida a apenas dos personajes, pero sobrada de efectos especiales, la fórmula funciona como un ejercicio de ci-fi vintage que tiene el valor de tratar de abrirse camino en un mundo dominado por secuelas Puntuación: ★★★",
+        genero:"Ciencia ficción. Aventuras. Drama. Acción | Aventura espacial. Dinosaurios",
+        videoURL:'../video/x2mate.com-Goodfellas (1990) Official Trailer #1 - Martin Scorsese Movie(720p).mp4',
+      },
+      {
+        titulo: "Knock at the Cabin",
+        imagenURL: "Inicio/12.jpg",
+        año: 2023,
+        Director:'M. Night Shyamalan',
+        actores: ["Adam Driver", "Ariana Greenblatt", "Chloe Coleman", "Nika Williams"],
+        sinopsis: "Durante unas vacaciones en una cabaña en un bosque alejada de todo, una niña y sus padres se convierten en rehenes de cuatro desconocidos armados que obligan a la familia a tomar una decisión imposible para evitar el apocalipsis. Con acceso limitado al mundo exterior, la familia deberá decidir qué creer antes de que todo esté perdido",
+        resena: "Funciona como un tablero de mesa con pocas fichas movidas . El uso del sonido y de la música, los primeros planos de sus intérpretes  conforman una película de suspense psicológico que se disfruta del tirón.",
+        genero:"Intriga. Thriller. Terror. Drama | Fin del mundo",
+        videoURL:'../video/x2mate.com-Goodfellas (1990) Official Trailer #1 - Martin Scorsese Movie(720p).mp4',
+      },
+      {
+        titulo: "Ghosted",
+        imagenURL: "Inicio/6.jpg",
+        año: 2023,
+        Director:'Dexter Fletcher',
+        actores: ["Chris Evans", "Ana de Armas", "Adrien Brody", "Mike Moh", "Amy Sedaris"],
+        sinopsis: "Cole, un tipo campechano, se enamora perdidamente de la emigmática Sadie, quien, para su enorme sorpresa, resulta ser una agente secreta. Antes de que pueda surgir una segunda cita, los dos deben embarcarse en una aventura internacional para salvar el mundo",
+        resena: "Una película sin encanto repleta de cameos sin sentido y chistes sin gracia  Puntuación: ★",
+        genero:"Acción. Romance | Comedia romántica. Espionaje",
+        videoURL:'../video/x2mate.com-Goodfellas (1990) Official Trailer #1 - Martin Scorsese Movie(720p).mp4',
+      },
+      {
+        titulo: "Infinty Pool",
+        imagenURL: "Inicio/14.jpg",
+        año: 2023,
+        Director:'Brandon Cronenberg',
+        actores: ["Alexander Skarsgard", "Mia Goth", "Cleoptra Coleman", "Jalil Lespert", "Thomas Kretschamann"],
+        sinopsis: "James y Em Foster disfrutan de unas vacaciones en la playa con todo incluido en la isla ficticia de La Tolqa, cuando un accidente fatal expone la subcultura perversa del turismo hedonista, la violencia imprudente y los horrores surrealistas del resort.",
+        resena: "Tan pagada de sí misma como, admitámoslo, irrenunciable; tan ocurrente como vacía; tan turbia como disfrutable.  una fábula delirante que irrita tanto como hace saltar de placer",
+        genero:"Terror. Ciencia ficción. Thriller. Intriga",
+        videoURL:'../video/x2mate.com-Goodfellas (1990) Official Trailer #1 - Martin Scorsese Movie(720p).mp4',
+      },
+      {
+        titulo: "Air",
+        imagenURL: "Inicio/15.jpg",
+        año: 2023,
+        Director:'Ben Affleck',
+        actores: ["Matt Damon", "Ben Affleck", "Viola Davis", "Jason Bateman", "Chris Messina"],
+        sinopsis: "Narra la increíble y revolucionaria asociación entre Michael Jordan -un novato en ese momento- y la incipiente sección de baloncesto de Nike, que revolucionó el mundo del deporte y la cultura contemporánea con la marca Air Jordan",
+        resena: "Affleck retrata con emoción el sueño de Michael Jordan estupenda película  un documento interesantísimo alrededor de las historias del deporte, de las finanzas, del marketing  y un divertimento para gozar, reír y rememorar",
+        genero:"Drama | Deporte. Baloncesto. Bolsa & Negocios. Basado en hechos reales. Años 80",
+        videoURL:'../video/x2mate.com-Goodfellas (1990) Official Trailer #1 - Martin Scorsese Movie(720p).mp4',
+      },
+      {
+        titulo: "Super Mario Bros",
+        imagenURL: "Inicio/16.jpg",
+        año: 2023,
+        Director:'Aaron Horvath, Michael Jelenic',
+        actores: ["Chirs Pratt ", "Anya Taylor-Joy", "Charlie Day", "Jack Black", "Keegan-Michael Key"],
+        sinopsis: "Mientras trabajan en una avería subterránea, los fontaneros de Brooklyn, Mario y su hermano Luigi, viajan por una misteriosa tubería hasta un nuevo mundo mágico. Pero, cuando los hermanos se separan, Mario deberá emprender una épica misión para encontrar a Luigi.",
+        resena: "Se gana con espectacularidad y tesón de jornalero esa hora y media de imparable jolgorio  incluso para los legos en videoconsolas resultará divertido, movido y visualmente ingenioso",
+        genero:"Animación. Aventuras. Infantil. Fantástico. Comedia | Cine familiar. Videojuego",
+        videoURL:'../video/x2mate.com-Goodfellas (1990) Official Trailer #1 - Martin Scorsese Movie(720p).mp4',
+      },
+      // Peliculas de Acción
+      {
+        titulo: "El Caballero Oscuro",
+        imagenURL: "/Films/Acción/1.jpg",
+        año: 2008,
+        Director: "Christopher Nolan",
+        actores: ["Christian Bale", "Heath Ledger", "Aaron Eckhart"],
+        sinopsis: "Batman se enfrenta al despiadado Joker, quien desata el caos en Gotham City.",
+        resena: "Una película brillante con una actuación memorable de Heath Ledger como Joker.",
+        genero: "Acción, Crimen, Drama",
+        videoURL: "../video/el-caballero-oscuro.mp4",
+      },
+      {
+        titulo: "Creed II",
+        imagenURL: "/Films/Acción/2.jpg",
+        año: 2018,
+        Director: "Steven Caple Jr.",
+        actores: ["Michael B. Jordan", "Sylvester Stallone", "Tessa Thompson"],
+        sinopsis: "El hijo de Apollo Creed se enfrenta a un nuevo rival en el ring.",
+        resena: "Una emocionante continuación de la saga de Rocky con excelentes actuaciones.",
+        genero: "Drama, Deporte",
+        videoURL: "../video/creed-ii.mp4",
+      },
+      {
+        titulo: "Charlie's Angels",
+        imagenURL: "/Films/Acción/3.jpg",
+        año: 2019,
+        Director: "Elizabeth Banks",
+        actores: ["Kristen Stewart", "Naomi Scott", "Ella Balinska"],
+        sinopsis: "Tres agentes secretas se unen para combatir el crimen y salvar al mundo.",
+        resena: "Una película entretenida con mucha acción y humor.",
+        genero: "Acción, Aventura, Comedia",
+        videoURL: "../video/charlies-angels.mp4",
+      },
+      {
+        titulo: "Wrath of Man",
+        imagenURL: "/Films/Acción/4.jpg",
+        año: 2021,
+        Director: "Guy Ritchie",
+        actores: ["Jason Statham", "Holt McCallany", "Josh Hartnett"],
+        sinopsis: "Un misterioso guardia de seguridad busca vengarse del robo que sufrió su hijo.",
+        resena: "Un thriller de acción lleno de giros y emocionantes escenas de combate.",
+        genero: "Acción, Crimen, Drama",
+        videoURL: "../video/wrath-of-man.mp4",
+      },
+
+      {
+        titulo: "The Gray Man",
+        imagenURL: "/Films/Acción/5.jpg",
+        año: 2023,
+        Director: "Russo Brothers",
+        actores: ["Ryan Gosling", "Chris Evans"],
+        sinopsis: "Un asesino a sueldo se enfrenta a un antiguo colega en un juego mortal de gato y ratón.",
+        resena: "Un emocionante thriller de acción con un elenco estelar.",
+        genero: "Acción, Suspense",
+        videoURL: "../video/the-gray-man.mp4",
+      },
+
+      {
+        titulo: "The Man from Toronto",
+        imagenURL: "/Films/Acción/6.jpg",
+        año: 2022,
+        Director: "Patrick Hughes",
+        actores: ["Jason Statham", "Kevin Hart", "Woody Harrelson"],
+        sinopsis: "Un asesino a sueldo y un perdedor confundidos como compañeros en una misión.",
+        resena: "Una comedia de acción con una química divertida entre los protagonistas.",
+        genero: "Acción, Comedia",
+        videoURL: "../video/the-man-from-toronto.mp4",
+      },
+
+      {
+        titulo: "The Commuter",
+        imagenURL: "/Films/Acción/7.jpg",
+        año: 2018,
+        Director: "Jaume Collet-Serra",
+        actores: ["Liam Neeson", "Vera Farmiga", "Patrick Wilson"],
+        sinopsis: "Un hombre de negocios se ve atrapado en una conspiración durante su viaje diario en tren.",
+        resena: "Un emocionante thriller con una gran actuación de Liam Neeson.",
+        genero: "Acción, Crimen, Drama",
+        videoURL: "../video/the-commuter.mp4",
+      },
+
+      {
+        titulo: "Fast & Furious: Hobbs & Shaw",
+        imagenURL: "/Films/Acción/8.jpg",
+        año: 2019,
+        Director: "David Leitch",
+        actores: ["Dwayne Johnson", "Jason Statham", "Idris Elba"],
+        sinopsis: "Dos rivales se unen para detener a un terrorista mejorado genéticamente.",
+        resena: "Una película llena de acción y humor con grandes escenas de persecuciones.",
+        genero: "Acción, Aventura",
+        videoURL: "../video/fast-and-furious-hobbs-and-shaw.mp4",
+      },
+
+      {
+        titulo: "Free Guy",
+        imagenURL: "/Films/Acción/9.jpg",
+        año: 2021,
+        Director: "Shawn Levy",
+        actores: ["Ryan Reynolds", "Jodie Comer", "Taika Waititi"],
+        sinopsis: "Un personaje de videojuego descubre su verdadera naturaleza y se convierte en un héroe.",
+        resena: "Una divertida comedia de acción que rinde homenaje a los videojuegos.",
+        genero: "Acción, Comedia, Ciencia ficción",
+        videoURL: "../video/free-guy.mp4",
+      },
+
+      {
+        titulo: "Greenland",
+        imagenURL: "/Films/Acción/10.jpg",
+        año: 2020,
+        Director: "Ric Roman Waugh",
+        actores: ["Gerard Butler", "Morena Baccarin"],
+        sinopsis: "Una familia lucha por sobrevivir a un desastre natural global.",
+        resena: "Un thriller emocionante y lleno de suspenso.",
+        genero: "Acción, Drama, Ciencia ficción",
+        videoURL: "../video/greenland.mp4",
+      },
+      // Peliculas Belicas
+      {
+        titulo: "13 Hours",
+        imagenURL: "/Films/Bélico/1.jpg",
+        año: 2016,
+        Director: "Michael Bay",
+        actores: ["John Krasinski", "James Badge Dale", "Pablo Schreiber"],
+        sinopsis: "Un equipo de seguridad lucha por proteger a los ciudadanos estadounidenses durante un ataque en Libia.",
+        resena: "Un intenso drama de acción basado en hechos reales.",
+        genero: "Acción, Drama, Suspense",
+        videoURL: "../video/13-hours.mp4",
+      },
+
+      {
+        titulo: "12 Strong",
+        imagenURL: "/Films/Bélico/2.jpg",
+        año: 2018,
+        Director: "Nicolai Fuglsig",
+        actores: ["Chris Hemsworth", "Michael Shannon", "Michael Peña"],
+        sinopsis: "Un equipo de fuerzas especiales es enviado a Afganistán después del 11 de septiembre.",
+        resena: "Una historia inspiradora basada en eventos reales durante la guerra en Afganistán.",
+        genero: "Acción, Drama, Historia",
+        videoURL: "../video/12-strong.mp4",
+      },
+
+      {
+        titulo: "1917",
+        imagenURL: "/Films/Bélico/3.jpg",
+        año: 2019,
+        Director: "Sam Mendes",
+        actores: ["George MacKay", "Dean-Charles Chapman"],
+        sinopsis: "Dos soldados británicos reciben una misión casi imposible durante la Primera Guerra Mundial.",
+        resena: "Una obra maestra cinematográfica con una narrativa inmersiva y visualmente impresionante.",
+        genero: "Acción, Drama, Bélico",
+        videoURL: "../video/1917.mp4",
+      },
+
+      {
+        titulo: "Greyhound",
+        imagenURL: "/Films/Bélico/12.jpg",
+        año: 2020,
+        Director: "Aaron Schneider",
+        actores: ["Tom Hanks", "Stephen Graham", "Rob Morgan"],
+        sinopsis: "Durante la Segunda Guerra Mundial, un capitán de la Marina lidera una flota en una peligrosa misión de escolta.",
+        resena: "Un emocionante drama de guerra con una actuación destacada de Tom Hanks.",
+        genero: "Acción, Drama, Bélico",
+        videoURL: "../video/greyhound.mp4",
+      },
+
+      {
+        titulo: "Fury",
+        imagenURL: "/Films/Bélico/5.jpg",
+        año: 2014,
+        Director: "David Ayer",
+        actores: ["Brad Pitt", "Shia LaBeouf", "Logan Lerman"],
+        sinopsis: "Un sargento lidera un tanque Sherman y su tripulación en una peligrosa misión en la Segunda Guerra Mundial.",
+        resena: "Un intenso drama bélico que muestra la brutalidad de la guerra.",
+        genero: "Acción, Drama, Bélico",
+        videoURL: "../video/fury.mp4",
+      },
+
+      {
+        titulo: "The Kill Team",
+        imagenURL: "/Films/Bélico/11.jpg",
+        año: 2019,
+        Director: "Dan Krauss",
+        actores: ["Nat Wolff", "Alexander Skarsgård"],
+        sinopsis: "Un soldado lucha contra la moralidad y el abuso de poder en su unidad militar en Afganistán.",
+        resena: "Un perturbador thriller psicológico basado en eventos reales.",
+        genero: "Acción, Drama, Bélico",
+        videoURL: "../video/the-kill-team.mp4",
+      },
+
+      {
+        titulo: "Dunkirk",
+        imagenURL: "/Films/Bélico/7.jpg",
+        año: 2017,
+        Director: "Christopher Nolan",
+        actores: ["Fionn Whitehead", "Tom Hardy", "Mark Rylance"],
+        sinopsis: "Durante la Segunda Guerra Mundial, soldados aliados se enfrentan a una evacuación desesperada en Dunkerque.",
+        resena: "Una experiencia cinematográfica inmersiva y emocionante sobre la guerra y la supervivencia.",
+        genero: "Acción, Drama, Bélico",
+        videoURL: "../video/dunkirk.mp4",
+      },
+
+      {
+        titulo: "Inglourious Basterds",
+        imagenURL: "/Films/Bélico/20.jpg",
+        año: 2009,
+        Director: "Quentin Tarantino",
+        actores: ["Brad Pitt", "Christoph Waltz", "Mélanie Laurent"],
+        sinopsis: "Un grupo de soldados judíos-estadounidenses planea una venganza brutal contra líderes nazis en la Segunda Guerra Mundial.",
+        resena: "Una película audaz y entretenida que mezcla la historia con la ficción de manera única.",
+        genero: "Acción, Drama, Bélico",
+        videoURL: "../video/inglourious-basterds.mp4",
+      },
+
+      {
+        titulo: "Darkest Hour",
+        imagenURL: "/Films/Bélico/9.jpg",
+        año: 2017,
+        Director: "Joe Wright",
+        actores: ["Gary Oldman", "Kristin Scott Thomas"],
+        sinopsis: "El primer ministro británico Winston Churchill debe enfrentar la amenaza de la invasión nazi durante la Segunda Guerra Mundial.",
+        resena: "Una destacada actuación de Gary Oldman en un drama histórico emocionalmente cargado.",
+        genero: "Acción, Drama, Historia,Bélico",
+        videoURL: "../video/darkest-hour.mp4",
+      },
+
+      {
+        titulo: "El profesor de persa",
+        imagenURL: "/Films/Bélico/10.jpg",
+        año: 2021,
+        Director: "Martin Campbell",
+        actores: ["Mel Gibson", "Eiza González"],
+        sinopsis: "Un exmarine se convierte en profesor de un adolescente que está relacionado con un peligroso cartel de drogas.",
+        resena: "Un thriller de acción con una trama intrigante y actuaciones destacadas.",
+        genero: "Acción, Drama, Suspense,Bélico",
+        videoURL: "../video/el-profesor-de-persa.mp4",
+      },
+        // Pelicula Comedia
+      {
+        titulo: "The Truman Show",
+        imagenURL: "/Films/Comedia/11.jpg",
+        año: 1998,
+        Director: "Peter Weir",
+        actores: ["Jim Carrey", "Ed Harris", "Laura Linney"],
+        sinopsis: "Un hombre descubre que su vida ha sido un reality show desde su nacimiento.",
+        resena: "Una sátira brillante y reflexiva sobre la cultura de la fama y la realidad.",
+        genero: "Drama, Comedia",
+        videoURL: "../video/the-truman-show.mp4",
+      },
+
+      {
+        titulo: "The Adam Project",
+        imagenURL: "/Films/Comedia/10.jpg",
+        año: 2022,
+        Director: "Shawn Levy",
+        actores: ["Ryan Reynolds", "Mark Ruffalo", "Jennifer Garner"],
+        sinopsis: "Un hombre viaja en el tiempo para encontrar a su yo más joven y salvar a su padre fallecido.",
+        resena: "Una película emocionante y con elementos de ciencia ficción que explora la importancia de las relaciones familiares.",
+        genero: "Comedia",
+        videoURL: "../video/the-adam-project.mp4",
+      },
+
+      {
+        titulo: "Hasta que la boda nos separe",
+        imagenURL: "/Films/Comedia/13.jpg",
+        año: 2022,
+        Director: "Dani de la Orden",
+        actores: ["Belén Cuesta", "Álex García", "Silvia Alonso"],
+        sinopsis: "Una mujer contrata a un desconocido para que se haga pasar por su novio en la boda de su hermana.",
+        resena: "Una comedia romántica divertida y llena de enredos.",
+        genero: "Comedia, Romántico",
+        videoURL: "../video/hasta-que-la-boda-nos-separe.mp4",
+      },
+
+      {
+        titulo: "Marry Me",
+        imagenURL: "/Films/Comedia/4.jpg",
+        año: 2022,
+        Director: "Kat Coiro",
+        actores: ["Jennifer Lopez", "Owen Wilson"],
+        sinopsis: "Una superestrella pop se casa en el escenario con un desconocido que resulta ser un profesor de matemáticas.",
+        resena: "Una comedia romántica divertida y encantadora con actuaciones carismáticas.",
+        genero: "Drama, Comedia, Romántico",
+        videoURL: "../video/marry-me.mp4",
+      },
+
+      {
+        titulo: "Yes Day",
+        imagenURL: "/Films/Comedia/8.jpg",
+        año: 2021,
+        Director: "Miguel Arteta",
+        actores: ["Jennifer Garner", "Edgar Ramírez"],
+        sinopsis: "Una pareja acepta dar a sus hijos un día en el que no pueden decir 'no' a ninguna de sus peticiones.",
+        resena: "Una película familiar entretenida y llena de diversión.",
+        genero: "Drama, Comedia, Familiar",
+        videoURL: "../video/yes-day.mp4",
+      },
+
+      {
+        titulo: "La familia perfecta",
+        imagenURL: "/Films/Comedia/15.jpg",
+        año: 2021,
+        Director: "Ricardo Silva",
+        actores: ["Ludwika Paleta", "Eréndira Ibarra", "Juan Pablo Medina"],
+        sinopsis: "Una familia aparentemente perfecta oculta oscuros secretos detrás de sus vidas públicas.",
+        resena: "Un drama intrigante que explora las apariencias y las relaciones familiares.",
+        genero: "Drama, Suspense,Comedia",
+        videoURL: "../video/la-familia-perfecta.mp4",
+      },
+
+      {
+        titulo: "Mask",
+        imagenURL: "/Films/Comedia/16.jpg",
+        año: 1985,
+        Director: "Peter Bogdanovich",
+        actores: ["Cher", "Eric Stoltz", "Sam Elliott"],
+        sinopsis: "La historia real de un joven con una enfermedad rara que lo hace tener una apariencia facial diferente.",
+        resena: "Un drama conmovedor y lleno de emociones que destaca las luchas y la fuerza interior de su protagonista.",
+        genero: "Drama, Biografía,Comedia",
+        videoURL: "../video/mask.mp4",
+      },
+
+      {
+        titulo: "El lobo de Wall Street",
+        imagenURL: "/Films/Comedia/19.jpg",
+        año: 2013,
+        Director: "Martin Scorsese",
+        actores: ["Leonardo DiCaprio", "Jonah Hill"],
+        sinopsis: "La vida extravagante y corrupta de un corredor de bolsa en Wall Street.",
+        resena: "Un drama provocativo y lleno de excesos que ofrece una mirada impactante al mundo de las finanzas.",
+        genero: "Drama, Crimen,Comedia",
+        videoURL: "../video/el-lobo-de-wall-street.mp4",
+      },
+
+      {
+        titulo: "Bullet Train",
+        imagenURL: "/Films/Comedia/18.jpg",
+        año: 2022,
+        Director: "David Leitch",
+        actores: ["Brad Pitt", "Zazie Beetz", "Joey King"],
+        sinopsis: "Varios asesinos a bordo de un tren de alta velocidad se enfrentan en una peligrosa batalla.",
+        resena: "Un thriller de acción vertiginoso con un elenco estelar y secuencias de acción emocionantes.",
+        genero: "Drama, Acción, Suspense,Comedia",
+        videoURL: "../video/bullet-train.mp4",
+      },
+
+      {
+        titulo: "Don't Look Up",
+        imagenURL: "/Films/Comedia/25.jpg",
+        año: 2021,
+        Director: "Adam McKay",
+        actores: ["Leonardo DiCaprio", "Jennifer Lawrence", "Meryl Streep"],
+        sinopsis: "Dos astrónomos intentan advertir al mundo sobre un asteroide que se dirige hacia la Tierra.",
+        resena: "Una sátira inteligente y divertida sobre la sociedad y la indiferencia ante las crisis.",
+        genero: "Drama, Comedia, Ciencia ficción",
+        videoURL: "../video/dont-look-up.mp4",
+      },
+      // Pelicula de Drama
+
+      {
+        titulo: "Ad Astra",
+        imagenURL: "/Films/Drama/1.jpg",
+        año: 2019,
+        Director: "James Gray",
+        actores: ["Brad Pitt","Tommy Lee Jones","Ruth Negga","Liv Tyler","Donald Sutherland"],
+        sinopsis: "Un astronauta emprende un peligroso viaje espacial en busca de su padre.",
+        resena: "Una película fascinante con actuaciones destacadas y una historia emocionalmente impactante.",
+        genero: "Ciencia ficción,Drama"
+      },
+
+      {
+        titulo: "Dark Waters",
+        imagenURL: "/Films/Drama/2.jpg",
+        año: 2019,
+        Director: "Todd Haynes",
+        actores: ["Mark Ruffalo","Anne Hathaway","Tim Robbins","Bill Pullman","Victor Garber"],
+        sinopsis: "Un abogado descubre un oscuro secreto que implica a una poderosa corporación en envenenamiento masivo.",
+        resena: "Un drama cautivador basado en hechos reales, con una actuación convincente de Mark Ruffalo.",
+        genero: "Drama"
+      },
+
+      {
+        titulo: "Athena",
+        imagenURL: "/Films/Drama/3.jpg",
+        año: 2022,
+        Director: "John Greyson",
+        actores: ["Kwaku Ananse","Nancy Boyd","Hrant Alianak","Irene Courakos","Carolyn Dunn"],
+        sinopsis: "Una agente secreta lucha contra una organización criminal internacional para proteger un artefacto valioso.",
+        resena: "Una película de acción emocionante con un elenco talentoso y una trama intrigante.",
+        genero: "Acción,Drama"
+      },
+
+      {
+        titulo: "Coda",
+        imagenURL: "/Films/Drama/4.jpg",
+        año: 2021,
+        Director: "Sian Heder",
+        actores: ["Emilia Jones","Marlee Matlin","Troy Kotsur", "Daniel Durant", "Ferdia Walsh-Peelo" ],
+        sinopsis: "Una adolescente hija de padres sordos debe enfrentar desafíos y descubrir su propia voz.",
+        resena: "Una película conmovedora y poderosa que destaca las actuaciones y la inclusión.",
+        genero: "Drama"
+      },
+
+      {
+        titulo: "The Guilty",
+        imagenURL: "/Films/Drama/5.jpg",
+        año: 2021,
+        Director: "Antoine Fuqua",
+        actores: ["Jake Gyllenhaal","Ethan Hawke","Riley Keough","Paul Dano","Peter Sarsgaard" ],
+        sinopsis: "Un operador de emergencias intenta salvar a una mujer secuestrada mientras enfrenta sus propios demonios.",
+        resena: "Un thriller intenso y lleno de suspenso, con una actuación destacada de Jake Gyllenhaal.",
+        genero: "Thriller, Drama"
+      },
+
+      {
+        titulo: "Miss Sloane",
+        imagenURL: "/Films/Drama/6.jpg",
+        año: 2016,
+        Director: "John Madden",
+        actores: ["Jessica Chastain","Mark Strong","Gugu Mbatha-Raw","Alison Pill","Michael Stuhlbarg"],
+        sinopsis: "Una astuta lobista se enfrenta a poderosos intereses mientras trabaja en una legislación controvertida.",
+        resena: "Un drama político cautivador con una actuación sobresaliente de Jessica Chastain.",
+        genero: "Drama"
+      },
+
+      {
+        titulo: "The Card Counter",
+        imagenURL: "/Films/Drama/9.jpg",
+        año: 2021,
+        Director: "Paul Schrader",
+        actores: ["Oscar Isaac","Tiffany Haddish","Tye Sheridan","Willem Dafoe","Paul Schrader"],
+        sinopsis: "Un exmilitar y jugador de cartas se ve envuelto en un plan de venganza.",
+        resena: "Un drama intrigante con una actuación destacada de Oscar Isaac y una dirección magistral de Paul Schrader.",
+        genero: "Drama"
+      },
+
+      {
+        titulo: "The Northman",
+        imagenURL: "/Films/Drama/10.jpg",
+        año: 2022,
+        Director: "Robert Eggers",
+        actores: ["Anya Taylor-Joy","Alexander Skarsgård","Nicole Kidman","Willem Dafoe","Ethan Hawke"],
+        sinopsis: "Un vikingo en busca de venganza se enfrenta a un rey sanguinario y a peligrosos enemigos.",
+        resena: "Un épico drama histórico con un elenco estelar y una dirección visualmente impresionante.",
+        genero: "Acción, Drama"
+      },
+
+      {
+        titulo: "The Outfit",
+        imagenURL: "/Films/Drama/11.jpg",
+        año: 2022,
+        Director: "Graham Moore",
+        actores: [ "Mark Rylance","Dylan O'Brien","Zoey Deutch","Johnny Flynn","Nina Hoss"],
+        sinopsis: "Un talentoso conserje se ve envuelto en un juego mortal cuando se cruza con un misterioso extraño.",
+        resena: "Un thriller emocionante con giros sorprendentes y un elenco talentoso.",
+        genero: "Thriller, Drama"
+      },
+      
+      {
+        titulo: "Secret in Their Eyes",
+        imagenURL: "/Films/Drama/12.jpg",
+        año: 2015,
+        Director: "Billy Ray",
+        actores: ["Chiwetel Ejiofor","Nicole Kidman","Julia Roberts","Dean Norris","Alfred Molina"],
+        sinopsis: "Un equipo de investigadores busca justicia por un crimen no resuelto que los persigue durante años.",
+        resena: "Un thriller cautivador con un elenco talentoso y una trama intrigante.",
+        genero: "Suspenso , Drama"
+      },
+      // Peliculas  de Fantasia
+      {
+        titulo: "Abraham Lincoln: Vampire Hunter",
+        imagenURL: "/Films/Fantasía/1.jpg",
+        año: 2012,
+        Director: "Timur Bekmambetov",
+        actores: ["Benjamin Walker", "Dominic Cooper", "Anthony Mackie"],
+        sinopsis: "Abraham Lincoln lucha contra vampiros en una versión alternativa de la historia.",
+        resena: "Una película de acción y fantasía con una premisa única.",
+        genero: "Acción, Fantasía, Terror",
+      },
+
+      {
+        titulo: "Alice in Wonderland",
+        imagenURL: "/Films/Fantasía/2.jpg",
+        año: 2010,
+        Director: "Tim Burton",
+        actores: ["Mia Wasikowska", "Johnny Depp", "Helena Bonham Carter"],
+        sinopsis: "Alice se sumerge en un mundo mágico y surrealista lleno de criaturas extrañas.",
+        resena: "Una adaptación visualmente impresionante del clásico cuento de hadas.",
+        genero: "Fantasía, Aventura",
+      },
+
+      {
+        titulo: "The Secrets of Dumbledore",
+        imagenURL: "/Films/Fantasía/3.jpg",
+        año: 2022,
+        Director: "David Yates",
+        actores: ["Eddie Redmayne", "Jude Law", "Johnny Depp"],
+        sinopsis: "El mago Newt Scamander se enfrenta a nuevos desafíos en el mundo de Harry Potter.",
+        resena: "La próxima película de la saga de Harry Potter, llena de magia y aventuras.",
+        genero: "Fantasía, Aventura",
+      },
+
+      {
+        titulo: "Animales Fantásticos",
+        imagenURL: "/Films/Fantasía/4.jpg",
+        año: 2016,
+        Director: "David Yates",
+        actores: ["Eddie Redmayne", "Katherine Waterston", "Dan Fogler"],
+        sinopsis: "Un magizoólogo descubre un oscuro complot que amenaza al mundo mágico.",
+        resena: "Una emocionante aventura en el universo de Harry Potter.",
+        genero: "Fantasía, Aventura"
+      },
+
+      {
+        titulo: "Border",
+        imagenURL: "/Films/Fantasía/5.jpg",
+        año: 2018,
+        Director: "Ali Abbasi",
+        actores: ["Eva Melander", "Eero Milonoff", "Jörgen Thorsson"],
+        sinopsis: "Una guardia fronteriza con la habilidad de oler el miedo se involucra en un caso misterioso.",
+        resena: "Un thriller sobrenatural que desafía los géneros convencionales.",
+        genero: "Drama, Fantasía, Misterio",
+      },
+
+      {
+        titulo: "Ghostbusters",
+        imagenURL: "/Films/Fantasía/6.jpg",
+        año: 1984,
+        Director: "Ivan Reitman",
+        actores: ["Bill Murray", "Dan Aykroyd", "Harold Ramis"],
+        sinopsis: "Un grupo de cazafantasmas se enfrenta a una oleada de actividad paranormal en Nueva York.",
+        resena: "Una comedia clásica con un elenco carismático y momentos icónicos.",
+        genero: "Comedia, Fantasía",
+      },
+
+      {
+        titulo: "Jack the Giant Slayer",
+        imagenURL: "/Films/Fantasía/11.jpg",
+        año: 2013,
+        Director: "Bryan Singer",
+        actores: ["Nicholas Hoult", "Eleanor Tomlinson", "Stanley Tucci"],
+        sinopsis: "Un joven granjero se embarca en una aventura para rescatar a una princesa de los gigantes.",
+        resena: "Una emocionante película de fantasía con impresionantes efectos visuales.",
+        genero: "Fantasía, Aventura",
+      },
+
+      {
+        titulo: "El Séptimo Hijo",
+        imagenURL: "/Films/Fantasía/8.jpg",
+        año: 2014,
+        Director: "Sergey Bodrov",
+        actores: ["Jeff Bridges", "Ben Barnes", "Julianne Moore"],
+        sinopsis: "Un joven aprendiz de cazador de brujas se enfrenta a un poderoso enemigo.",
+        resena: "Una película de fantasía con un elenco talentoso y escenas llenas de acción.",
+        genero: "Fantasía, Aventura",
+        
+      },
+
+      {
+        titulo: "El Secreto de Adaline",
+        imagenURL: "/Films/Fantasía/9.jpg",
+        año: 2015,
+        Director: "Lee Toland Krieger",
+        actores: ["Blake Lively", "Michiel Huisman", "Harrison Ford"],
+        sinopsis: "Una mujer que no envejece vive una vida solitaria hasta que conoce a un hombre especial.",
+        resena: "Una hermosa historia romántica con un toque de fantasía.",
+        genero: "Drama, Romance, Fantasía",
+        
+      },
+
+      {
+        titulo: "Glass",
+        imagenURL: "/Films/Fantasía/10.jpg",
+        año: 2019,
+        Director: "M. Night Shyamalan",
+        actores: ["James McAvoy", "Bruce Willis", "Samuel L. Jackson"],
+        sinopsis: "Un psiquiatra se enfrenta a tres individuos con habilidades sobrehumanas.",
+        resena: "La película que une los universos de 'El Protegido' y 'Fragmentado'.",
+        genero: "Drama, Fantasía, Thriller",
+  
+      },
+      // Pelicula de Ficción
+      {
+        titulo: "Armageddon",
+        imagenURL: "/Films/Ficción/1.jpg",
+        año: 1998,
+        Director: "Michael Bay",
+        actores: ["Bruce Willis", "Ben Affleck", "Liv Tyler"],
+        sinopsis: "Un equipo de perforadores de petróleo es enviado al espacio para destruir un asteroide que se dirige hacia la Tierra.",
+        resena: "Una emocionante película de acción y ciencia ficción.",
+        genero: "Acción, Ciencia ficción, Drama",
+    
+      },
+      {
+        titulo: "Prometheus",
+        imagenURL: "/Films/Ficción/2.jpg",
+        año: 2012,
+        Director: "Ridley Scott",
+        actores: ["Noomi Rapace", "Michael Fassbender", "Charlize Theron"],
+        sinopsis: "Un equipo de exploradores descubre los orígenes de la humanidad en un viaje espacial que desafía los límites del espacio y del tiempo.",
+        resena: "Una película de ciencia ficción que explora los misterios de nuestro origen.",
+        genero: "Ciencia ficción, Aventura",
+        
+      },
+      
+      {
+        titulo: "Edge of Tomorrow",
+        imagenURL: "/Films/Ficción/3.jpg",
+        año: 2014,
+        Director: "Doug Liman",
+        actores: ["Tom Cruise", "Emily Blunt", "Bill Paxton"],
+        sinopsis: "Un soldado se encuentra atrapado en un bucle temporal durante una guerra contra una raza alienígena, y debe repetir el mismo día una y otra vez para intentar cambiar el resultado de la batalla.",
+        resena: "Una película de acción con un concepto único de viajes en el tiempo.",
+        genero: "Acción,  ficción",
+       
+      },
+
+      {
+        titulo: "Aniquilación",
+        imagenURL: "/Films/Ficción/4.jpg",
+        año: 2018,
+        Director: "Alex Garland",
+        actores: ["Natalie Portman", "Jennifer Jason Leigh", "Tessa Thompson"],
+        sinopsis: "Un grupo de científicas se aventura en un misterioso y peligroso lugar conocido como La Zona X, en donde los fenómenos naturales han tomado un giro sobrenatural.",
+        resena: "Una película de ciencia ficción que explora los límites de la naturaleza y la identidad.",
+        genero: " Ficción, Aventura, Misterio",
+        
+      },
+      {
+        titulo: "Avatar 2",
+        imagenURL: "/Films/Ficción/5.jpg",
+        año: 2022,
+        Director: "James Cameron",
+        actores: ["Sam Worthington", "Zoe Saldana", "Sigourney Weaver"],
+        sinopsis: "La secuela de la exitosa película 'Avatar', en donde se exploran nuevos mundos y se continúa la historia de los Na'vi y los humanos.",
+        resena: "Una esperada continuación del mundo creado por James Cameron.",
+        genero: "Ficción, Aventura",
+       
+      },
+
+      {
+        titulo: "Independence Day",
+        imagenURL: "/Films/Ficción/13.jpg",
+        año: 1996,
+        Director: "Roland Emmerich",
+        actores: ["Will Smith", "Bill Pullman", "Jeff Goldblum"],
+        sinopsis: "Una raza alienígena invade la Tierra y la humanidad debe unirse para luchar contra ellos y defender su planeta.",
+        resena: "Un clásico del cine de ciencia ficción y acción.",
+        genero: "Ficción, Acción",
+        
+      },
+      {
+        titulo: "Interstellar",
+        imagenURL: "/Films/Ficción/14.jpg",
+        año: 2014,
+        Director: "Christopher Nolan",
+        actores: ["Matthew McConaughey", "Anne Hathaway", "Jessica Chastain"],
+        sinopsis: "Un grupo de astronautas emprende un viaje interestelar en busca de un nuevo hogar para la humanidad, mientras exploran los límites del tiempo y el espacio.",
+        resena: "Una epopeya espacial que combina la ciencia ficción con la emoción humana.",
+        genero: "Ficción, Aventura, Drama",
+        
+      },
+
+      {
+        titulo: "Mad Max: Fury Road",
+        imagenURL: "/Films/Ficción/19.jpg",
+        año: 2015,
+        Director: "George Miller",
+        actores: ["Tom Hardy", "Charlize Theron", "Nicholas Hoult"],
+        sinopsis: "En un mundo post-apocalíptico, un grupo de rebeldes lucha por escapar de un tirano y encontrar la libertad en una desenfrenada persecución por el desierto.",
+        resena: "Una película de acción desenfrenada y visualmente impresionante.",
+        genero: "Acción, Aventura, Ficción",
+       
+      },
+      {
+        titulo: "Dune",
+        imagenURL: "/Films/Ficción/9.jpg",
+        año: 2021,
+        Director: "Denis Villeneuve",
+        actores: ["Timothée Chalamet", "Rebecca Ferguson", "Zendaya"],
+        sinopsis: "Basada en la aclamada novela de ciencia ficción, sigue la historia de un joven héroe que se embarca en un viaje épico para proteger el futuro de su pueblo en un planeta desértico llamado Arrakis.",
+        resena: "Una adaptación impresionante de una obra maestra de la ciencia ficción.",
+        genero: "Ficción, Aventura",
+       
+      },
+      {
+        titulo: "E.T. the Extra-Terrestrial",
+        imagenURL: "/Films/Ficción/10.jpg",
+        año: 1982,
+        Director: "Steven Spielberg",
+        actores: ["Henry Thomas", "Drew Barrymore", "Dee Wallace"],
+        inopsis: "Un niño hace amistad con un adorable extraterrestre y juntos intentan encontrar la forma de que regrese a su planeta antes de que sea capturado por las autoridades.",
+        resena: "Un clásico del cine de fantasía y aventuras que ha cautivado a generaciones.",
+        genero: "Fantasía, Aventura, Familia,Ficción",
+      
+      },
+      // Peliculas de Terror
+
+    {
+      titulo: "Peninsula",
+      imagenURL: "/Films/Horror/1.jpg",
+      año: 2020,
+      Director: "Yeon Sang-ho",
+      actores: ["Gang Dong-won", "Lee Jung-hyun"],
+      sinopsis: "Un exsoldado es enviado de regreso a la península coreana infestada de zombis para realizar una misión.",
+      resena: "Una emocionante película de acción y horror con impresionantes escenas de zombis.",
+      genero: "Acción, Terror",
+      
+    },
+    {
+      titulo: "Host",
+      imagenURL: "/Films/Horror/2.jpg",
+      año: 2020,
+      Director: "Rob Savage",
+      actores: ["Haley Bishop", "Jemma Moore", "Emma Louise Webb"],
+      sinopsis: "Un grupo de amigos realiza una sesión de espiritismo por videoconferencia que se sale de control.",
+      resena: "Un innovador y aterrador thriller de metraje encontrado que refleja los horrores de la era digital.",
+      genero: "Horror, Suspenso",
+     
+    },
+    {
+      titulo: "El Tubo",
+      imagenURL: "/Films/Horror/3.jpg",
+      año: 2023,
+      Director: "Mathieu Turi",
+      actores: ["Actores"],
+      sinopsis: "Una historia misteriosa que involucra a un personaje atrapado en un tubo.",
+      resena: "Un intrigante cortometraje que te sumerge en un mundo lleno de suspense y enigmas.",
+      genero: "Misterio, Suspense",
+
+    },
+    {
+      titulo: "Annabelle",
+      imagenURL: "/Films/Horror/4.jpg",
+      año: 2014,
+      Director: "John R. Leonetti",
+      actores: ["Annabelle Wallis", "Ward Horton", "Alfre Woodard"],
+      sinopsis: "Una muñeca poseída aterroriza a una pareja y desata el caos en sus vidas.",
+      resena: "Un espeluznante spin-off de la saga 'El Conjuro' que te mantendrá en vilo.",
+      genero: "Horror, Misterio",
+   
+    },
+    {
+      titulo: "Black Phone",
+      imagenURL: "/Films/Horror/5.jpg",
+      año: 2022,
+      Director: "Scott Derrickson",
+      actores: ["Mason Thames", "Madeleine McGraw", "Ethan Hawke"],
+      sinopsis: "Un niño atrapado en un sótano descubre un teléfono que se comunica con las víctimas de un asesino en serie.",
+      resena: "Un escalofriante thriller psicológico que te mantendrá al borde de tu asiento.",
+      genero: "Horror, Suspenso",
+    },
+    {
+      titulo: "Expediente Warren: The Conjuring",
+      imagenURL: "/Films/Horror/6.jpg",
+      año: 2013,
+      Director: "James Wan",
+      actores: ["Vera Farmiga", "Patrick Wilson", "Lili Taylor"],
+      sinopsis: "Una pareja de investigadores paranormales ayuda a una familia a lidiar con una presencia maligna en su casa.",
+      resena: "La primera entrega de la exitosa saga de terror 'El Conjuro' que te dejará sin aliento.",
+      genero: "Horror, Misterio",
+
+    },
+    {
+      titulo: "Countdown",
+      imagenURL: "/Films/Horror/7.jpg",
+      año: 2019,
+      Director: "Justin Dec",
+      actores: ["Elizabeth Lail", "Jordan Calloway", "Talitha Bateman"],
+      sinopsis: "Una aplicación móvil predice la fecha de muerte de las personas y comienza a perseguir a una joven.",
+      resena: "Un thriller sobrenatural que te hará pensar dos veces antes de descargar una aplicación.",
+      genero: "Horror, Suspenso",
+
+    },
+    {
+      titulo: "Creep",
+      imagenURL: "/Films/Horror/8.jpg",
+      año: 2014,
+      Director: "Patrick Brice",
+      actores: ["Mark Duplass", "Patrick Brice"],
+      sinopsis: "Un cineasta responde a un anuncio para grabar a un hombre durante el día, pero descubre que hay algo siniestro detrás de la solicitud.",
+      resena: "Un inquietante thriller psicológico con una actuación brillante de Mark Duplass.",
+      genero: "Horror, Suspenso",
+
+    },
+    {
+      titulo: "The Door",
+      imagenURL: "/Films/Horror/10.jpg",
+      año: 2016,
+      Director: "Johannes Roberts",
+      actores: ["Sarah Wayne Callies", "Jeremy Sisto", "Sofia Rosinsky"],
+      sinopsis: "Una familia lucha por sobrevivir cuando una fuerza misteriosa y mortífera amenaza su hogar.",
+      resena: "Un thriller sobrenatural que te mantendrá en vilo hasta el último segundo.",
+      genero: "Horror, Suspenso",
+    
+    },
+    {
+      titulo: "Ma",
+      imagenURL: "/Films/Horror/12.jpg",
+      año: 2019,
+      Director: "Tate Taylor",
+      actores: ["Octavia Spencer", "Diana Silvers", "Juliette Lewis"],
+      sinopsis: "Una mujer aparentemente amigable invita a un grupo de adolescentes a su casa, pero su hospitalidad pronto se convierte en obsesión y terror.",
+      resena: "Un thriller psicológico con una actuación destacada de Octavia Spencer.",
+      genero: "Horror, Suspenso",
+
+    },
+
+    // Peliculas de Superheroe
+    {
+      titulo: "Vengadores",
+      imagenURL: "/Films/SuperHeroe/1.jpg",
+      año: 2012,
+      Director: "Joss Whedon",
+      actores: ["Robert Downey Jr.", "Chris Evans", "Scarlett Johansson"],
+      sinopsis: "Un grupo de superhéroes se une para luchar contra una amenaza intergaláctica.",
+      resena: "Una emocionante película de acción y aventuras.",
+      genero: "Acción, Aventura, Ciencia ficción",
+
+    },
+    {
+      titulo: "Vengadores: Endgame",
+      imagenURL: "/Films/SuperHeroe/2.jpg",
+      año: 2019,
+      Director: "Joe Russo, Anthony Russo",
+      actores: ["Robert Downey Jr.", "Chris Evans", "Chris Hemsworth"],
+      sinopsis: "Los Vengadores se enfrentan a su mayor desafío mientras intentan revertir las acciones devastadoras de un poderoso villano.",
+      resena: "Un épico cierre de la saga de los Vengadores.",
+      genero: "Acción, Aventura, Ciencia ficción",
+
+    },
+    {
+      titulo: "Black Adam",
+      imagenURL: "/Films/SuperHeroe/3.jpg",
+      año: 2022,
+      Director: "Jaume Collet-Serra",
+      actores: ["Dwayne Johnson", "Noah Centineo", "Aldis Hodge"],
+      sinopsis: "Un antiguo dios egipcio con poderes sobrehumanos despierta en la era moderna y busca venganza.",
+      resena: "Una emocionante película de superhéroes con Dwayne Johnson en el papel principal.",
+      genero: "Acción, Aventura, Fantasía",
+
+    },
+    {
+      titulo: "Guardians of the Galaxy",
+      imagenURL: "/Films/SuperHeroe/15.jpgg",
+      año: 2014,
+      Director: "James Gunn",
+      actores: ["Chris Pratt", "Zoe Saldana", "Dave Bautista"],
+      sinopsis: "Un grupo de inadaptados se une para proteger la galaxia de una amenaza cósmica.",
+      resena: "Una película de Marvel llena de acción, humor y personajes memorables.",
+      genero: "Acción, Aventura, Ciencia ficción",
+
+    },
+    {
+      titulo: "Shazam",
+      imagenURL: "/Films/SuperHeroe/5.jpg",
+      año: 2019,
+      Director: "David F. Sandberg",
+      actores: ["Zachary Levi", "Asher Angel", "Mark Strong"],
+      sinopsis: "Un joven adquiere poderes sobrehumanos y debe aprender a usarlos para enfrentarse a un poderoso enemigo.",
+      resena: "Una divertida película de superhéroes con un toque de comedia.",
+      genero: "Acción, Aventura, Comedia",
+
+    },
+    {
+      titulo: "Justice League (Zack Snyder's Cut)",
+      imagenURL: "/Films/SuperHeroe/16.jpg",
+      año: 2021,
+      Director: "Zack Snyder",
+      actores: ["Ben Affleck", "Henry Cavill", "Gal Gadot"],
+      sinopsis: "Los superhéroes más poderosos del mundo se unen para enfrentarse a una amenaza catastrófica.",
+      resena: "La versión extendida y mejorada de la Liga de la Justicia según la visión del director Zack Snyder.",
+      genero: "Acción, Aventura, Fantasía",
+
+    },
+    {
+      titulo: "Batman Begins",
+      imagenURL: "/Films/SuperHeroe/8.jpg",
+      año: 2005,
+      Director: "Christopher Nolan",
+      actores: ["Christian Bale", "Michael Caine", "Liam Neeson"],
+      sinopsis: "El origen de Batman y su lucha contra el crimen en Gotham City.",
+      resena: "El comienzo de la trilogía de Batman dirigida por Christopher Nolan.",
+      genero: "Acción, Aventura, Drama",
+
+    },
+    {
+      titulo: "Black Panther",
+      imagenURL: "/Films/SuperHeroe/9.jpg",
+      año: 2018,
+      Director: "Ryan Coogler",
+      actores: ["Chadwick Boseman", "Michael B. Jordan", "Lupita Nyong'o"],
+      sinopsis: "El rey de Wakanda debe proteger su país y su legado como Black Panther.",
+      resena: "Una película de superhéroes con una representación poderosa y un impacto cultural significativo.",
+      genero: "Acción, Aventura, Fantasía",
+
+    },
+    {
+      titulo: "Man of Steel",
+      imagenURL: "/Films/SuperHeroe/14.jpg",
+      año: 2013,
+      Director: "Zack Snyder",
+      actores: ["Henry Cavill", "Amy Adams", "Michael Shannon"],
+      sinopsis: "El origen y la historia de Superman, el último hijo de Krypton.",
+      resena: "Una reinterpretación moderna del icónico superhéroe con efectos visuales impresionantes.",
+      genero: "Acción, Aventura, Ciencia ficción",
+
+    },
+    {
+      titulo: "Spider-Man: Un Nuevo Universo",
+      imagenURL: "/Films/SuperHeroe/24.jpg",
+      año: 2018,
+      Director: "Bob Persichetti, Peter Ramsey, Rodney Rothman",
+      actores: ["Shameik Moore", "Jake Johnson", "Hailee Steinfeld"],
+      sinopsis: "Un adolescente descubre sus poderes de Spider-Man y se une a otros Spider-Men de diferentes dimensiones para salvar el multiverso.",
+      resena: "Una innovadora y emocionante película animada de Spider-Man.",
+      genero: "Acción, Aventura, Animación",
+
+    }
+];
+  
+  
+
+
+
+
+  function verInformacionPelicula(indice) {
+    var pelicula = peliculas[indice];
+    localStorage.setItem("peliculaSeleccionada", JSON.stringify(pelicula));
+    window.location.href = "../informacion.html?indice=" + indice;
+  }
+  

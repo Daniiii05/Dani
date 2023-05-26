@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Información de la Película</title>
+  <link rel="stylesheet" href="Css/creed.css">
+  <link rel="stylesheet" href="Css/Estilo.css">
+  
+</head>
+
+<nav>
+  <a href="/index.html" class="logo">
+    <img src="Icono/Icono.png" alt="Icono"> <!-- Muestra una imagen como logotipo -->
+  </a>
+  <ul class="menu"> <!-- Crea una lista desordenada para el menú de navegación -->
+    <li><a href="index.html">Home</a></li>
+    <li><a href="/paginas/acción.html">Acción</a></li>
+    <li><a href="/paginas/belico.html">Belico</a></li>
+    <li><a href="/paginas/comedia.html">Comedia</a></li>
+    <li><a href="/paginas/drama.html">Drama</a></li>
+    <li><a href="/paginas/fantasia.html">Fantasia</a></li>
+    <li><a href="/paginas/ficcion.html">Ficción</a></li>
+    <li><a href="/paginas/horror.html">Horror</a></li>
+    <li><a href="/paginas/superheroe.html">Superheroe</a></li>
+</ul> 
+</nav>
+
+
+ 
+  <div id="informacion-pelicula"></div>
+
+  <script src="index.js"></script>
+  <script src="index3.js"></script>
+  <script>
+    // Obtiene el parámetro de la URL
+    var urlParams = new URLSearchParams(window.location.search);
+    var indice = urlParams.get("indice");
+
+    // Obtiene la película seleccionada del almacenamiento local y la convierte en objeto
+    var peliculaSeleccionada = JSON.parse(localStorage.getItem("peliculaSeleccionada"));
+
+    // Obtiene el elemento HTML donde se mostrará la información de la película
+    var informacionPeliculaElemento = document.getElementById("informacion-pelicula");
+  
+    // Crea el contenido HTML con los datos de la película seleccionada
+    var html = "<h2>" + peliculaSeleccionada.titulo + "</h2>";
+    html += "<img src='"  + peliculaSeleccionada.imagenURL + "' alt='Imagen de la película'>";
+    html += "<p>Año: " + peliculaSeleccionada.año + "</p>";
+    html += "<p>Director: " + peliculaSeleccionada.Director + "</p>";
+    html += "<p>Reparto: " + peliculaSeleccionada.actores.join(", ") + "</p>";
+    html += "<p>Sinopsis: " + peliculaSeleccionada.sinopsis + "</p>";
+    html += "<p>Reseña: " + peliculaSeleccionada.resena + "</p>";
+    html += "<p>Género: " + peliculaSeleccionada.genero + "</p>";
+    
+    
+    // Agrega el contenido HTML al elemento
+    informacionPeliculaElemento.innerHTML = html;
+  </script>
+</body>
+
+  </script>
+
+</html>
